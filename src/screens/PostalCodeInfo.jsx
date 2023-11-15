@@ -21,7 +21,7 @@ const PostalCodeInfo = () => {
         .catch((error) => {
           setError(error);
         });
-    }, 1000);
+    }, 500);
   }, []);
 
 
